@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>May tinh binh dan</title>
+	<style type="text/css">
+		a {
+			text-decoration: none;
+		}
+		*{
+			padding-top: 0px;
+			margin-top: 0px;
+		}
+		body {
+
+			background-color: powderblue;
+			margin-top: 0px;
+			padding-left: 15%;
+			padding-right: 15%;
+			
+			font-family: poppins;
+			font-weight: 600;
+			font-size: 16px;
+		}
+
+		img {
+ 			width: 45%;
+  			height: auto;
+			float: right;
+		}
+
+		#showcase  p {
+			display: inline-block;
+			width: 45%;
+			height: auto;
+			float: left;
+		}
+
+		.flex-container{
+			display: flex;
+			flex-flow: row wrap;
+		}
+
+		#header {
+			padding-top: 30px;
+			padding-bottom: 5px;
+			background-color: aquamarine;
+		}
+
+		#nav {
+			padding-top: 15px;
+			padding-bottom: 1px;
+			background-color: brown;
+			align-content: center;
+		}
+
+		#navbar{
+			list-style: none;
+			padding-left: 10%;
+			padding-right: 10%
+		}
+
+		#navbar li {
+			display: inline-block;
+			padding: 0 15px;
+			text-transform: uppercase;
+		}
+
+		#navibar li a{
+			transition: .3s;
+			color: #fff;
+		}
+
+		#navbar li a:hover{
+			color: #d22938;
+		}
+
+		#navbar li a:visited{
+			color: burlywood;
+		}
+
+
+		#header > h1 {text-align: center}
+
+		footer {padding-top: 50px;
+		padding-bottom: 20px;
+		background-color: aquamarine;}
+	</style>
+</head>
+<body>
+	<div id="header"><h1>May tinh binh dan<h1></div>
+ 	<div id="nav">
+ 		<ul id="navbar">
+ 			<li><a href="index.html">Home</a></li>
+ 			<li><a href="linhkien.html">Linh kien</a></li>
+ 			<li><a href="lapmay.html">Cach lap may & bao hanh</a></li>
+ 			<li><a href="maymau.html">May mau</a></li>
+ 		</ul>
+ 	</div>
+ 	<div id= "intro">
+ 		<h2>Gioi thieu</h1>
+ 		<p>Intro paragraph</p>
+ 	</div> 
+ 	<div id="showcase" class="flex-container">
+ 		<div id="content1">
+ 			<a href="linhkien.html"><p>Linh kien</p>
+ 			<img src="linhkien.jpeg">
+			</a>
+ 		</div>
+ 		<div id="content2">
+ 			<a href="lapmay.html"><p>Cach lap may & bao hanh</p>
+ 			<img src="buildpc.jpeg">
+			</a>
+ 		</div>
+ 		<div id="content3">
+			 <a href="maymau.html">
+ 			<p>May mau</p>
+ 			<img src="testbuild.jpeg">
+			</a>
+ 		</div>
+
+ 	</div>
+	 <footer>@ HVD</footer>
+
+</body>
+</html>
