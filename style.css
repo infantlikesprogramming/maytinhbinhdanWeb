@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+}
+*{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+body {
+
+    background-color: powderblue;
+    margin-top: 0px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+img {
+     width: 45%;
+      height: auto;
+    float: right;
+}
+
+#showcase  p {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    float: left;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#header {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+#nav {
+    padding-top: 15px;
+    padding-bottom: 1px;
+    background-color: brown;
+    align-content: center;
+}
+
+#navbar{
+    list-style: none;
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+    
+}
+
+#navbar li a{
+    transition: 0s;
+    color: burlywood
+}
+
+#navbar li a:hover{
+    color: #d22938;
+}
+
+#navbar li a:visited{
+    color: burlywood;
+}
+
+#header > h1 {text-align: center}
+
+footer {padding-top: 25px;
+padding-bottom: 20px;
+background-color: aquamarine;}
