@@ -18,9 +18,10 @@ body {
 }
 
 img {
+    max-width: 300px
      width: 45%;
-      height: auto;
-    float: right;
+     height: auto;
+     float: right;
 }
 
 #showcase  p {
